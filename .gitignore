@@ -1,1 +1,5 @@
-frames/
+# Source video files (too large for git)
+*.mp4
+*.mov
+*.avi
+*.mkv
