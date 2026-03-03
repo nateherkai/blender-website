@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBSIDIAN VORTEX — Annihilate Everything</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ LOADER ═══ -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-brand">OBSIDIAN</div>
+      <div class="loader-bar-track">
+        <div class="loader-bar" id="loader-bar"></div>
+      </div>
+      <div class="loader-percent" id="loader-percent">0</div>
+    </div>
+  </div>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header" id="site-header">
+    <nav class="header-inner">
+      <a class="header-logo" href="#">
+        <span class="logo-mark">O</span>
+        <span class="logo-text">OBSIDIAN</span>
+      </a>
+      <div class="header-nav">
+        <a class="nav-link" href="#">Power</a>
+        <a class="nav-link" href="#">Technology</a>
+        <a class="nav-link" href="#">Design</a>
+      </div>
+      <div class="header-actions">
+        <a class="nav-link nav-cta" href="#">Pre-Order</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ═══ HERO (standalone, left-aligned) ═══ -->
+  <section class="hero-standalone" id="hero-standalone">
+    <div class="hero-content">
+      <span class="section-label">001 / Introducing</span>
+      <h1 class="hero-heading">
+        <span class="hero-line"><span class="word">OBSIDIAN</span></span>
+        <span class="hero-line hero-line-accent"><span class="word">VORTEX</span></span>
+      </h1>
+      <p class="hero-tagline">annihilate everything</p>
+    </div>
+    <div class="scroll-indicator" id="scroll-indicator">
+      <span class="scroll-indicator-text">Scroll</span>
+      <span class="scroll-indicator-line"></span>
+    </div>
+  </section>
+
+  <!-- ═══ CANVAS (full viewport, draws frames offset right) ═══ -->
+  <div class="canvas-wrap" id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- ═══ DARK OVERLAY (for stats section) ═══ -->
+  <div class="dark-overlay" id="dark-overlay"></div>
+
+  <!-- ═══ MARQUEES ═══ -->
+  <div class="marquee-wrap" id="marquee-wrap-1">
+    <div class="marquee-text" id="marquee-text-1">
+      ANNIHILATE EVERYTHING &mdash; ANNIHILATE EVERYTHING &mdash; ANNIHILATE EVERYTHING &mdash; ANNIHILATE EVERYTHING &mdash; ANNIHILATE EVERYTHING &mdash; ANNIHILATE EVERYTHING &mdash;
+    </div>
+  </div>
+  <div class="marquee-wrap" id="marquee-wrap-2">
+    <div class="marquee-text" id="marquee-text-2">
+      SILENT POWER &mdash; SILENT POWER &mdash; SILENT POWER &mdash; SILENT POWER &mdash; SILENT POWER &mdash; SILENT POWER &mdash; SILENT POWER &mdash;
+    </div>
+  </div>
+
+  <!-- ═══ SCROLL CONTAINER ═══ -->
+  <div class="scroll-container" id="scroll-container">
+
+    <!-- Section 1: Brand Statement -->
+    <section class="scroll-section section-content"
+             data-enter="2" data-leave="14" data-animation="scale-up">
+      <div class="section-inner section-inner-wide">
+        <p class="section-body section-body-large">
+          we didn't build another blender.<br>
+          we engineered a force of nature that reduces<br>
+          anything to nothing &mdash; in absolute <em>silence.</em>
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 2: Product Intro -->
+    <section class="scroll-section section-content"
+             data-enter="14" data-leave="24" data-animation="slide-left">
+      <div class="section-inner">
+        <span class="section-label">002 / The Machine</span>
+        <h2 class="section-heading">meet the<br>OBSIDIAN VORTEX</h2>
+        <p class="section-body">
+          Machined from aerospace-grade stainless steel.
+          2,400 watts of brushless motor precision. Six hardened
+          titanium blades rotating at 38,000 RPM.
+          This is not a kitchen appliance &mdash; this is controlled destruction.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 3: Feature 01 — Brushless Motor -->
+    <section class="scroll-section section-content"
+             data-enter="24" data-leave="34" data-animation="slide-right">
+      <div class="section-inner">
+        <span class="section-label">003 / Specifications</span>
+        <span class="feature-number-large">01</span>
+        <h2 class="section-heading">brushless<br>motor</h2>
+        <p class="section-body">
+          A 2,400-watt brushless DC motor with active thermal
+          management. Zero friction. Zero maintenance. Infinite endurance.
+          The kind of engineering usually reserved for electric supercars.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 4: Feature 02 — Titanium Blade Array -->
+    <section class="scroll-section section-content"
+             data-enter="31" data-leave="44" data-animation="clip-reveal">
+      <div class="section-inner">
+        <span class="section-label">003 / Specifications</span>
+        <span class="feature-number-large">02</span>
+        <h2 class="section-heading">titanium<br>blade array</h2>
+        <p class="section-body">
+          Six laser-cut Japanese titanium blades in a stacked vortex
+          configuration. Each edge hardened to 64 HRC. They don't
+          just blend &mdash; they annihilate at the molecular level.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 5: Feature 03 — Acoustic Vault -->
+    <section class="scroll-section section-content"
+             data-enter="44" data-leave="54" data-animation="fade-up">
+      <div class="section-inner">
+        <span class="section-label">003 / Specifications</span>
+        <span class="feature-number-large">03</span>
+        <h2 class="section-heading">acoustic<br>vault</h2>
+        <p class="section-body">
+          Triple-layer sound dampening with vacuum-sealed chamber
+          technology. 38,000 RPM at whisper levels. Full power
+          at 45 decibels &mdash; quieter than a conversation.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 6: Stats -->
+    <section class="scroll-section section-stats"
+             data-enter="54" data-leave="66" data-animation="stagger-up">
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-value">
+            <span class="stat-number" data-value="2400" data-decimals="0">0</span>
+            <span class="stat-suffix">W</span>
+          </div>
+          <span class="stat-label">peak motor output</span>
+        </div>
+        <div class="stat">
+          <div class="stat-value">
+            <span class="stat-number" data-value="38" data-decimals="0">0</span>
+            <span class="stat-suffix">K</span>
+          </div>
+          <span class="stat-label">blade RPM</span>
+        </div>
+        <div class="stat">
+          <div class="stat-value">
+            <span class="stat-number" data-value="45" data-decimals="0">0</span>
+            <span class="stat-suffix">dB</span>
+          </div>
+          <span class="stat-label">operating volume</span>
+        </div>
+        <div class="stat">
+          <div class="stat-value">
+            <span class="stat-number" data-value="6" data-decimals="0">0</span>
+          </div>
+          <span class="stat-label">titanium blades</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Quote -->
+    <section class="scroll-section section-content"
+             data-enter="66" data-leave="78" data-animation="rotate-in">
+      <div class="section-inner">
+        <span class="section-label">004 / Voices</span>
+        <h2 class="section-heading">the last blender<br>you'll ever own</h2>
+        <p class="section-body section-body-quote">
+          &ldquo;I've tested every high-performance blender on the market.
+          The OBSIDIAN VORTEX isn't in the same category &mdash; it's in
+          a category of one. Nothing comes close.&rdquo;
+        </p>
+        <span class="section-attribution">&mdash; Industrial Kitchen Review</span>
+      </div>
+    </section>
+
+    <!-- Section 8: CTA (persists) -->
+    <section class="scroll-section section-cta"
+             data-enter="78" data-leave="100"
+             data-animation="scale-up" data-persist="true">
+      <div class="section-inner">
+        <span class="cta-price">$899</span>
+        <h2 class="section-heading cta-heading">own the<br>force</h2>
+        <a class="cta-button" href="#">Pre-Order OBSIDIAN VORTEX</a>
+        <p class="section-note">shipping Q3 2026 &mdash; matte black edition</p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ═══ CDN SCRIPTS ═══ -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
